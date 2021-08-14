@@ -1,0 +1,43 @@
+/* --------index page----------- */
+@media screen and (max-width: 920px) {
+  nav ul {
+    display: none;
+  }
+  .left-sidebar,
+  .right-sidebar {
+    position: unset;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .right-sidebar {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .search-box {
+    display: none;
+  }
+  .story2,
+  .story5 {
+    display: none;
+  }
+  .post-story {
+    flex-basis: 32%;
+    padding-top: 280px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .post-story {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .add-post-links {
+    flex-direction: column;
+  }
+  .add-post-links a {
+    margin-top: 20px;
+  }
+}
