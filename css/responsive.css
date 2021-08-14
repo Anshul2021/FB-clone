@@ -26,6 +26,8 @@
     flex-basis: 32%;
     padding-top: 280px;
   }
+  .post-text{
+        line-height: 1.7;
 }
 @media screen and (max-width: 420px) {
   .post-story {
